@@ -41,7 +41,7 @@ function boxcolor(bgcolor){
    let r=parseInt(bgcolor.substr(1,2),16);
    let g=parseInt(bgcolor.substr(3,2),16);
    let b=parseInt(bgcolor.substr(5,2),16);
-   return `rgba(${r},${g},${b})`;
+   return `rgb(${r},${g},${b})`;
 }
 
 
